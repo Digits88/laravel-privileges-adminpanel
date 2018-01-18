@@ -1,0 +1,12 @@
+.skin-blue-light .sidebar-menu > li.header {
+    font-size: 10pt;
+    letter-spacing: 0.5pt;
+}
+
+.main-header .navbar {
+    max-height: 50px;
+}
+
+.alert-info {
+    font-weight: normal;
+}
