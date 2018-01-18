@@ -22,4 +22,10 @@ This is not a Laravel Package. This is full laravel project and you do the rest 
 
 ## Based On
 This project based on this package/library:
-- dfd
+- [acacha adminlte-laravel](https://github.com/acacha/adminlte-laravel)
+- [spatie laravel-permission](https://github.com/spatie/laravel-permission)
+- [yajra laravel-datatables](https://github.com/yajra/laravel-datatables)
+- [iCheck](http://icheck.fronteed.com)
+- [Bootstrap Notify](http://bootstrap-notify.remabledesigns.com)
+
+Many thanks to them!
