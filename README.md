@@ -3,7 +3,7 @@ This is Laravel 5.5 admin panel starter project with features to manage users, r
 
 I make this because I don't want build those features over and over again everytime I start new project. DRY (Don't Repeat Yourself). As we know, users-roles-permissions are basic feature that must be exists in many projects.
 
-![screenshots_gif](https://gfycat.com/ImpassionedForcefulCrocodile)
+[![laravel-privileges-adminpanel.gif](https://s1.gifyu.com/images/laravel-privileges-adminpanel.gif)](https://gifyu.com/image/LxnA)
 
 ## Features
 - Permissions: Browse, View, Add, Edit, Delete. 
