@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.
+#adminlte_routes
+
+Route::redirect('/home', '/');
+
 Route::group(['middleware' => 'auth', 'prefix' => 'admin'], function () {
 
     Route::get('home', 'HomeController@index')->name('home');
@@ -32,6 +37,4 @@ Route::group(['middleware' => 'auth', 'prefix' => 'admin'], function () {
         Route::get("$object/{id}", ucfirst(str_singular($object))."Controller@view")->middleware("permission:view $object")->name("{$object}.view");
     }
 
-    //Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.
-    #adminlte_routes
 });
