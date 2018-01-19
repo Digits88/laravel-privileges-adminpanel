@@ -84,6 +84,9 @@
 							column.search($(this).val(), false, false, true).draw();
 						});
 					});
+				},
+				drawCallback: function() {
+					initConfirmFirst();
 				}
 			});
 		});

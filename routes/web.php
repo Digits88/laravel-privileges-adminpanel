@@ -15,7 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::group(['middleware' => 'auth'], function () {
+Route::group(['middleware' => 'auth', 'prefix' => 'admin'], function () {
+
+    Route::get('home', 'HomeController@index')->name('home');
 
     $objects = ['users', 'permissions', 'roles'];
 
